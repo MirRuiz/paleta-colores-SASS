@@ -1,0 +1,11 @@
+@import"_mixin";
+
+.container-1{
+    @include container($primary-color)
+}
+.container-2{
+    @include container($secondary-color)
+}
+.container-3{
+    @include container($third-color)
+}
